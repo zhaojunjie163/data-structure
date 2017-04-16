@@ -40,8 +40,8 @@ public class Main {
 
     private static void doubleForLoop() {
         int k = 0;
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < 4; i++) { //loop times
+            for (int j = 0; j < 5; j++) {//main loop
                 System.out.println(k++);
                 System.out.println(++k);
             }
