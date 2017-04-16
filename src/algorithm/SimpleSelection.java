@@ -4,10 +4,19 @@ package algorithm;
  * Created by zhaojunjie on 16/4/17.
  */
 public class SimpleSelection {
-
+    /**
+     *
+     * repeat (numberOfElements -1) times
+     *     set the first unsorted elements as the minimum
+     *     for each of the unsorted elements
+     *         if element < currentMinimum
+     *            set element as new minumum
+     *     swap minimum with the first unsorted position
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[] arr = {3, 4, 53, 3, 2, 33, 23, 45};
-
 
         for (int i = 0; i < arr.length; i++) {
             int min = i;
